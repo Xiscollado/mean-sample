@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
+</head>
+<style>
+	.buffer{ margin:20px 0;}
+	.small-buffer{margin:2px 0;}
+</style>
+<body ng-app="app">
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="row">
+				<ul class="nav navbar-nav">
+					<li><a href="/#/">Home</a></li>
+					<li><a href="/#/register">Register</a></li>
+					<li><a href="/#/login">Login</a></li>
+				</ul>			
+			</div>
+		</div>
+	</nav>	
+	<div ng-view></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
+	<script src="/app.js"></script>
+</body>
+</html>
